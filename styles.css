@@ -228,3 +228,21 @@ h2{
   color:var(--muted);
   text-align:center;
 }
+.hero h1{
+  font-size: clamp(2rem, 3.2vw, 3rem);
+  line-height: 1.12;
+  margin: 14px 0 12px;
+}
+
+.sub{
+  font-size: 1.05rem;
+  color: rgba(233,238,252,0.82);
+}
+
+.hero .panel{
+  background: rgba(11,18,32,0.35);
+  border: 1px solid rgba(233,238,252,0.12);
+  border-radius: 20px;
+  padding: 22px;
+}
+
